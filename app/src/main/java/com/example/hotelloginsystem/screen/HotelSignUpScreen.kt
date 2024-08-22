@@ -100,7 +100,7 @@ fun HotelLoginScreen(navController: NavController) {
                             successMessage = "Welcome ${user?.email}"
                             isLoading = false // Set loading state to false after successful sign up
                             // Navigate to DashboardScreen on successful sign up
-                            navController.navigate(Screens.DashboardScreen.route)
+                            navController.navigate(Screens.LoginScreen.route)
                         }, { error ->
                             errorMessage = error
                             isLoading = false // Set loading state to false on error
@@ -170,6 +170,7 @@ private fun signUp(
                         if (verificationTask.isSuccessful) {
                             onSuccess(user)
                         } else {
+                            auth.signOut()
                             onFailure(verificationTask.exception?.message ?: "Verification email failed to send")
                         }
                     }
