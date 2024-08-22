@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "347779370354",
+    "project_id": "hotel-login-crud-app",
+    "storage_bucket": "hotel-login-crud-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347779370354:android:b0b9ec685f960ae38e21eb",
+        "android_client_info": {
+          "package_name": "com.example.hotelloginsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347779370354-m75kqr1vpl7jr2vhs02mnh3keurl8mii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaLNGHKpEOLpuFK4UlE5eLOf6taV1ba_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347779370354-m75kqr1vpl7jr2vhs02mnh3keurl8mii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
